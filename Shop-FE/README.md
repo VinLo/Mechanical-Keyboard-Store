@@ -1,6 +1,6 @@
 # ShopFE
 
-# First
+## First
 Run this command to install node modules
 ### `yarn`
 
