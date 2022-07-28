@@ -1,5 +1,10 @@
 # ShopFE
 
+# First
+Run this command to install node modules
+### `yarn`
+
+
 ### `yarn start`
 
 Runs the app in the development mode.\
