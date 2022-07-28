@@ -1,0 +1,82 @@
+.reviewsHeading {
+  color: #000000be;
+  font: 500 1.4vmax "Roboto";
+  text-align: center;
+  padding: 1vmax;
+  width: 25vmax;
+  margin: auto;
+}
+
+.reviews {
+  overflow: auto;
+  background-color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviewCard {
+  display: flex;
+  padding: 32px 48px;
+  border-top: 1px solid rgb(242, 242, 242);
+  justify-content: space-around;
+}
+.reviewCard > img {
+  width: 5vmax;
+}
+.reviewCard > p {
+  color: rgba(0, 0, 0, 0.445);
+  font: 600 0.9vmax "Roboto";
+}
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.445);
+  font: 300 0.8vmax cursive;
+}
+.noReviews {
+  font: 400 1.3vmax "Gill sans";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.548);
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .reviewCard > p {
+    font: 600 3vw "Roboto";
+  }
+  .reviewCardComment {
+    font: 300 5vw cursive;
+  }
+}
+.review_comment_user_inner {
+  display: flex;
+  align-items: center;
+}
+
+.review_comment_user_inner > img {
+  margin: 0px 12px 0px 0px;
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.review_comment_rating-title {
+  display: inline-flex;
+  align-items: center;
+}
+
+.review_comment-title {
+  margin: 0px 0px 0px 12px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+  color: rgb(36, 36, 36);
+  overflow: hidden;
+}
+
+.review_comment_user-datejoin,
+.review_comment_create-date {
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(128, 128, 137);
+}

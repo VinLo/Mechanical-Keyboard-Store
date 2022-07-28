@@ -1,0 +1,140 @@
+.main-content {
+  position: relative;
+  margin-left: 240px;
+  transition: margin-left 500ms;
+}
+.main-content-header {
+  position: fixed;
+  top: 0;
+  left: 240px;
+  z-index: 100;
+  width: calc(100% - 240px);
+  background: #fff;
+  height: 60px;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  transition: left 500ms;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-wrapper input {
+  border: 0;
+  outline: 0;
+  padding: 1rem;
+  height: 38px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.social-icons span,
+.social-icons div {
+  margin-left: 1.2rem;
+}
+
+.main-content-dashboard {
+  margin-top: 60px;
+  background: #f1f5f9;
+  min-height: 100vh;
+  padding: 1rem 3rem;
+}
+
+.dashboard-title {
+  color: #1d2231;
+  margin-bottom: 1rem;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3rem;
+}
+
+.card-single {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 1.3rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-body span {
+  font-size: 1.5rem;
+  color: #777;
+  padding-right: 1.4rem;
+}
+
+.card-body h5 {
+  color: #8390a2;
+  font-size: 1rem;
+}
+
+.card-body h4 {
+  color: #1d2231;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+
+.card-footer {
+  padding: 0.2rem 1rem;
+  background: #f9fafc;
+}
+
+.card-footer a {
+  color: #027681;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 860px) {
+  .dashboard-cards {
+    grid-template: repeat(2, 1fr);
+  }
+  .card-single {
+    margin-bottom: 1rem;
+  }
+  .table-grid {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dashboard-cards {
+    grid-template-columns: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main-content-dashboard {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.donutChart {
+  height: 20vmax !important;
+  padding-top: 2rem !important;
+}
+
+.lineChart {
+  height: 30vmax !important;
+  padding-top: 2rem !important;
+}
+
+.main-content-dashboard-chart{
+  margin-top: 60px;
+  display: flex;
+  background: #f1f5f9;
+  min-height: 100vh;
+  padding: 1rem 3rem;
+  flex-flow: wrap;
+}

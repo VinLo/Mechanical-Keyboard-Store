@@ -1,0 +1,303 @@
+.banner {
+  width: 100%;
+  height: 500px;
+  -webkit-background-size: cover;
+  background-image: url("https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg");
+}
+/* #eef88f */
+.homebody {
+  background: #eaeded;
+  padding-bottom: 1%;
+}
+
+.banner h2 {
+  padding-top: 8%;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button {
+  transition: all 0.5s;
+  padding: 1vmax;
+  font-size: 0.9vmax;
+  box-sizing: border-box;
+  border-radius: 5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.homeHeading {
+  text-align: center;
+  font-size: 1.4vmax;
+  /* border-bottom: 1px solid rgba(21, 21, 21, 0.5); */
+  width: 20vmax;
+  color: black;
+  padding: 1vmax;
+  margin: 0vmax auto;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 80vw; */
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.Container-mx {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.Container-mx > a {
+  color: rgb(0, 0, 0);
+  font: 300 2rem "Roboto";
+  text-align: center;
+  /* background-color: rgb(255, 233, 174); */
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 10vmax;
+  height: 10vmax;
+  margin: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-pg {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.link {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.link:hover {
+  color: darkorange;
+  transition: 0.5s all;
+}
+
+.Row {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  flex-wrap: wrap;
+}
+
+.Row > p {
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.connect-left,
+.connect-mid,
+.connect-right {
+  width: calc(100% / 2);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.connect-left,
+.connect-right,
+.connect-mid > p {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+}
+
+.connect-right > svg {
+  font-size: 10rem;
+  padding: 1.2rem;
+}
+.connect-mid > svg {
+  font-size: 10rem;
+  padding: 1.2rem;
+}
+.connect-left > svg {
+  font-size: 10rem;
+  padding: 1.2rem;
+}
+
+.productCard {
+  width: 14vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 1vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+.productCard > img {
+  width: 14vmax;
+  height: 13vmax;
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5vmax;
+  font: 300 0.7vmax "Roboto";
+}
+
+.productCard > p {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.productCard > span {
+  margin: 0.5vmax 0.5vmax;
+  color: tomato;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 600px) {
+  .productCard > p {
+    font-size: 1.7vmax;
+  }
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+  .productCard > span {
+    font-size: 1.5vmax;
+  }
+  .productCard > div > span {
+    margin: 0 0.5vmax;
+    font: 300 1vmax "Roboto";
+  }
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 0.5;
+}
+
+#button_bttop {
+  display: inline-block;
+  background-color: #4db2ec;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  /* opacity: 0;
+  visibility: hidden; */
+  z-index: 1000;
+}
+#button_bttop::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button_bttop:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button_bttop:active {
+  background-color: #555;
+}
+#button_bttop.show {
+  opacity: 1;
+  visibility: visible;
+}
+.more_products_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  background-color: #d0011b;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+}
+.more_products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 24px;
+}
+
+.more_products_icon > .icon-arrow-right {
+  stroke: #fff;
+  width: 0.5rem;
+}
+
+.cta{
+  margin: 100px auto;
+  margin-top: 0;
+  width: 94%;
+  background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)), url('https://ucarecdn.com/e56cd705-5048-416c-9b79-2290cef23e60/-/format/auto/-/preview/2560x2560/-/quality/lighter/untitled.86.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.cta h1{
+  color: #fff;
+  margin-bottom: 40px;
+  font-family:"Swiss 721 Rounded",sans-serif;;
+  padding: 0;
+}
+
+.cta a{
+padding: 18px;
+border-radius: 10px;
+color: #fff;
+background-color: rgb(221, 51, 51);
+font-weight: bold;
+}
+
+.cta a:hover{
+  background-color: black;
+}

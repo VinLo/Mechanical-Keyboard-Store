@@ -1,0 +1,156 @@
+@media screen and (max-width: 767px) {
+  .footerrepon {
+    display: block !important;
+  }
+  .leftFooter {
+    width: 100% !important;
+  }
+  .midFooter {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .rightFooter {
+    width: 100% !important;
+  }
+}
+.footerrepon {
+  padding: 5%;
+  background-color: #495057;
+  color: white;
+  display: flex;
+  /* justify-content: space-around; */
+}
+/* Left Footer Start*/
+.leftFooter {
+  width: calc(100% / 3);
+}
+.leftFooter img {
+  margin: 0 0 25px 0;
+  width: 10vmax;
+}
+.leftFooter > h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.leftFooter > p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+/* Left Footer End*/
+
+/* Mid Footer Start*/
+.midFooter {
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+.midFooter > h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.midFooter p img {
+  margin-right: 8px;
+}
+.midFooter > p {
+  font-size: 16px;
+  margin: 0 0 16px 0;
+  color: white;
+  font-weight: 400;
+}
+/* Mid Footer End*/
+
+/* Right Footer Start*/
+.rightFooter {
+  width: calc(100% / 3);
+}
+.info-contact {
+  padding: 0;
+}
+.info-contact > li {
+  list-style: none;
+  align-items: left;
+  margin-bottom: 12px;
+}
+.info-contact li .info {
+  padding-left: 8px;
+}
+
+.rightFooter > h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  /* text-decoration: underline; */
+}
+.rightFooter > p {
+  margin-bottom: 0.5rem;
+}
+
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  color: white;
+  transition: all 0.5s;
+  margin-bottom: 1vmax;
+}
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+/* Right Footer End*/
+
+/* Social Icon Start*/
+.social--color--filled span.fa-twitter {
+  border-radius: 50%;
+  background: #19b2f5;
+}
+.social--color--filled span.fa-facebook-f {
+  border-radius: 50%;
+  background: #395799;
+}
+.social--color--filled span.fa-pinterest-p {
+  border-radius: 50%;
+  background: #9c0c1c;
+}
+.social--color--filled span.fa-linkedin-in {
+  border-radius: 50%;
+  background: #007bb5;
+}
+.social ul li a span {
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  color: white;
+}
+.social ul li + li {
+  margin-left: 8px;
+}
+.social-contact {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+/* Social Icon End*/
+
+/* Mini-footer Start*/
+.mini-footer {
+  background-color: #262b30;
+  display: flex;
+  margin: auto !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.copyright-text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #999;
+  text-align: center;
+}
+.copyright-text p a {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+/* Mini-footer End*/

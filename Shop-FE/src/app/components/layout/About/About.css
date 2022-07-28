@@ -1,0 +1,87 @@
+.about_wrapper{
+height: 100vh;
+overflow: hidden;
+}
+
+._about{
+height: 100%;
+overflow-x: hidden;
+perspective: 1px;
+}
+
+.about_section{
+position: relative;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+padding: 50px;
+overflow: hidden;
+transform-style: preserve-3d;
+}
+
+.bg_about{
+    background-image: url(https://ucarecdn.com/e56cd705-5048-416c-9b79-2290cef23e60/-/format/auto/-/preview/2560x2560/-/quality/lighter/untitled.86.jpg);
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background-size: cover;
+background-position: center center;
+z-index: -1;
+min-height: 100%;
+transform: translate3d(0,0,-1px) scale(1);
+}
+
+.about_section h2{
+    font-size: 47.2px!important;
+    letter-spacing: 0px!important;
+    color: #242424!important;
+    text-transform: none!important;
+    font-weight: 600!important;
+    line-height: 1.5em!important;
+    text-align: center;
+}
+
+.about_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_info_right{
+    width: 40%;
+}
+
+.about_info_right p {
+    font-size: 20px;
+    font-family: "Swiss 721 Rounded",sans-serif;
+}
+
+.text_edit{
+    font-size: 22px;
+    font-family: "Swiss 721 Rounded",sans-serif;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+}
+
+.about_section2{
+    margin: 0 5% 0 5%;
+}
+
+.about_section2_img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_section2_img img{
+    border-radius: 22px;
+    width: 100%;
+   margin: 25px;
+}
+
+.about_body{
+    background-color: #eceae7;
+}

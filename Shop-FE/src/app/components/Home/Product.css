@@ -1,0 +1,40 @@
+.product__name{
+    height: 4%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    font-family:"Swiss 721 Rounded",sans-serif;
+    padding: 1rem 0 1rem 0;
+}
+.product__products{
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 1vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+}
+
+.product_products_review{
+    font-size: 16px;
+    font-family:"Swiss 721 Rounded",sans-serif;
+
+}
+
+.product_products_cardspan{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.product_products_price{
+    color: #1976d2;
+    font-size: 18px;
+    font-weight: bold;
+}

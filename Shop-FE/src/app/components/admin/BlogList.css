@@ -1,0 +1,95 @@
+.recent {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .table-grid {
+    display: grid;
+  }
+  
+  .table-card {
+    background: #fff;
+    border-radius: 7px;
+  }
+  
+  .table-card h3 {
+    color: #8390a2;
+    margin: 1rem;
+  }
+  
+  .table-card table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-card thead {
+    background: #efefef;
+    text-align: left;
+  }
+  
+  th,
+  td {
+    font-size: 0.9rem;
+    padding: 1rem 1rem;
+    color: #8390a2;
+  }
+  
+  td {
+    font-size: 0.8rem;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #f9fafc;
+  }
+  
+  .badge {
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+  
+  .badge.success {
+    background: #def7ec;
+    color: #027681;
+  }
+  
+  .badge.warning {
+    background: #f0f6b2;
+    color: orange;
+  }
+  
+  .td-img {
+    /* display: flex; */
+    align-items: center;
+  }
+  .td-img img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    /* margin-left: -15px; */
+    border: 3px solid #efefef;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .action-btn-edit {
+    min-width: 0px !important;
+    color: #28a745 !important;
+  }
+  
+  .action-btn-delete {
+    min-width: 0px !important;
+    color: #dc3545 !important;
+  }
+  
+  .action-btn-add {
+    color: #007bff !important;
+    border-radius: 4px !important;
+    margin: 1rem !important;
+  }
+  
+  .link-add {
+    text-decoration: none;
+  }
+  

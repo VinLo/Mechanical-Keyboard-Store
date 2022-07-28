@@ -1,0 +1,140 @@
+.container_products {
+  width: 100%;
+  margin-left: auto;
+  /* height: 100vh; */
+  margin-right: auto;
+  /* background: linear-gradient(
+    45deg,
+    rgba(66, 183, 245, 0.8) 0%,
+    rgba(66, 245, 189, 0.4) 100%
+  ); */
+  background: #ffffff;
+  padding-left: 2%;
+}
+.productsHeading {
+  color: rgba(0, 0, 0, 0.678);
+  font: 500 1.5vmax "Quicksand";
+  /* display: flex; */
+  text-align: center;
+  padding-top: 20px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5vmax;
+  justify-content: flex-start;
+  min-height: 30vh;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.page-item {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 27px;
+  width: 37px;
+}
+.page-item:last-child {
+  border: 0 5px 5px 0;
+}
+.page-link {
+  display: inline-block;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  margin: 0px 5px;
+  /* border-radius: 50%; */
+  width: 27px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.page-item:hover {
+  background-color: rgb(230, 230, 230);
+}
+.page-item:hover .page-link {
+  color: rgb(80, 80, 80);
+}
+.pageItemActive {
+}
+.pageLinkActive {
+  font-weight: 400;
+  background: rgb(24, 158, 255);
+  color: rgb(255, 255, 255);
+  margin: 0px 5px;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+}
+.filterBox {
+  width: 18vmax;
+}
+
+.categoryBox {
+  padding: 0%;
+}
+.category-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.61);
+  font: 400 18px "Quicksand";
+  font-weight: bold;
+  margin-top: 0.4vmax;
+  cursor: pointer;
+}
+.category-link:hover {
+  color: #4285f4;
+}
+
+.filterBox > fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.329);
+}
+@media screen and (max-width: 600px) {
+  .filterBox {
+    width: 20vmax;
+    position: static;
+    margin: auto;
+  }
+  .page-link {
+    font: 300 1.7vmax "Roboto";
+  }
+  .category-link {
+    font: 'Inter', sans-serif;
+  }
+}
+
+.filterTitle{
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider_filter{
+  padding-top: 10px;
+  margin-top: 8px;
+  border-top: 3px solid;
+  border-color: #f9f9f9;
+}
+
+.products_flex{
+  display: flex;
+  flex-wrap: inherit;
+  width: 76%;
+}

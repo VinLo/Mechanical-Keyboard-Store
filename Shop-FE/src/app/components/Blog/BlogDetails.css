@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+.rte{
+   padding-top: 2rem;
+   padding-right: 10%;
+   padding-left: 10%;
+   font-family: 'Prompt', sans-serif;
+   padding-bottom: 5%;
+}
+
+.title{
+    font-size: 62px;
+    font-weight: 200;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Prompt', sans-serif;
+}
+
+.small-title{
+    font-size: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 200;
+
+}

@@ -1,0 +1,154 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  position: sticky;
+  background-color: #110a16;
+  justify-content: space-evenly;
+}
+.header_logo {
+  width: 113px;
+  height: 60px;
+  object-fit: contain;
+  margin: 18px;
+  margin-top: 18px;
+}
+.header_search {
+  /* flex: 0.9; */
+  /* align-items: center; */
+  width: 30%;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.header_searchInput_wrap {
+  display: flex;
+  width: 100%;
+}
+
+.header_searchInput {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.header_searchInput::placeholder {
+  color: lightgray;
+}
+
+.header_searchIcon {
+  background-color: #ab3b92;
+  padding: 5px;
+  border-radius: 6px;
+  height: 32px;
+  border: none;
+  color: white;
+}
+.header_nav {
+  justify-content: space-evenly;
+  display: flex;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header_optionLineOne {
+  font-size: 10px;
+}
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+}
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dataSearch {
+  margin: 9% 0 0 -10% ;
+  top: 0;
+  width: 114%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+}
+
+.dataSearch::-webkit-scrollbar {
+  display: none;
+}
+
+.dataSearch .dataItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+
+.dataItem a:hover {
+  background-color: lightgrey;
+}
+.header_navbar-user-menu {
+  position: absolute;
+  padding: 8px 0px;
+  top: calc(100% + 4px);
+  right: 0;
+  background: white;
+  width: 170px;
+  border-radius: 2px;
+  list-style: none;
+  z-index: 1;
+  box-shadow: 0 1px 2px #e0e0e0;
+  display: none;
+}
+
+.header_optionLineTwo:hover .header_navbar-user-menu {
+  display: block;
+}
+
+.header_navbar-user-menu::before {
+  content: "";
+  border-width: 20px 27px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+  right: 9px;
+  top: -29px;
+}
+
+.header_navbar-user-item {
+}
+
+.header_navbar-user-item a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 4px 16px;
+  display: block;
+}
+
+.header_navbar-user-item a:hover {
+  background-color: #fafafa;
+}
